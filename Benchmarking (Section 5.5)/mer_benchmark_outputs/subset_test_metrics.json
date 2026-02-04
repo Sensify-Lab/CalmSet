@@ -1,0 +1,52 @@
+{
+  "logreg_ovr": {
+    "human_subset": {
+      "micro_f1": 0.6023166023166023,
+      "macro_f1": 0.4709738485654963,
+      "micro_jaccard": 0.430939226519337,
+      "macro_jaccard": 0.3411056728709093,
+      "subset_accuracy": 0.08045977011494253
+    },
+    "clap_only_subset": null
+  },
+  "linear_svm_ovr": {
+    "human_subset": {
+      "micro_f1": 0.5719769673704413,
+      "macro_f1": 0.46050668524531385,
+      "micro_jaccard": 0.40053763440860213,
+      "macro_jaccard": 0.3315107946566263,
+      "subset_accuracy": 0.08045977011494253
+    },
+    "clap_only_subset": null
+  },
+  "rf_ovr": {
+    "human_subset": {
+      "micro_f1": 0.6004056795131846,
+      "macro_f1": 0.4363787596815397,
+      "micro_jaccard": 0.4289855072463768,
+      "macro_jaccard": 0.3189877074616606,
+      "subset_accuracy": 0.09195402298850575
+    },
+    "clap_only_subset": null
+  },
+  "mlp_ovr": {
+    "human_subset": {
+      "micro_f1": 0.5786163522012578,
+      "macro_f1": 0.40810775333208266,
+      "micro_jaccard": 0.40707964601769914,
+      "macro_jaccard": 0.2986659882716079,
+      "subset_accuracy": 0.06896551724137931
+    },
+    "clap_only_subset": null
+  },
+  "knn_ovr": {
+    "human_subset": {
+      "micro_f1": 0.6024590163934426,
+      "macro_f1": 0.40728743943678336,
+      "micro_jaccard": 0.4310850439882698,
+      "macro_jaccard": 0.30156219168569376,
+      "subset_accuracy": 0.05747126436781609
+    },
+    "clap_only_subset": null
+  }
+}

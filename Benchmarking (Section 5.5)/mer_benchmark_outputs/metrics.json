@@ -1,0 +1,49 @@
+{
+  "params": {
+    "TEST_SIZE": 0.2,
+    "VAL_SIZE": 0.1,
+    "RANDOM_STATE": 42,
+    "model": "LogisticRegression_OVR",
+    "threshold": 0.5,
+    "tags": [
+      "Stimulating",
+      "Playful",
+      "Soothing",
+      "Sensory-Calming",
+      "Grounding",
+      "Focusing",
+      "Transitional",
+      "Anxiety-Reduction"
+    ]
+  },
+  "val": {
+    "metrics": {
+      "micro_f1": 0.4921875,
+      "macro_f1": 0.42041074064206174,
+      "micro_jaccard": 0.32642487046632124,
+      "macro_jaccard": 0.2805697942189146,
+      "subset_accuracy": 0.06818181818181818
+    },
+    "topk": {
+      "mean_jaccard_at_k": 0.34772727272727266,
+      "mean_precision_at_k": 0.46969696969696967,
+      "mean_recall_at_k": 0.46969696969696967,
+      "k": 3
+    }
+  },
+  "test": {
+    "metrics": {
+      "micro_f1": 0.6204238921001926,
+      "macro_f1": 0.5453871791716349,
+      "micro_jaccard": 0.44972067039106145,
+      "macro_jaccard": 0.3927376652415352,
+      "subset_accuracy": 0.20689655172413793
+    },
+    "topk": {
+      "mean_jaccard_at_k": 0.5045977011494254,
+      "mean_precision_at_k": 0.6130268199233716,
+      "mean_recall_at_k": 0.6130268199233716,
+      "k": 3
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "logreg_ovr": {
+    "val": {
+      "metrics": {
+        "micro_f1": 0.5254901960784313,
+        "macro_f1": 0.41515995604954414,
+        "micro_jaccard": 0.35638297872340424,
+        "macro_jaccard": 0.2886212952923105,
+        "subset_accuracy": 0.045454545454545456
+      },
+      "topk@3": {
+        "mean_jaccard_at_k": 0.39999999999999997,
+        "mean_precision_at_k": 0.5378787878787878,
+        "mean_recall_at_k": 0.5378787878787878,
+        "k": 3
+      }
+    },
+    "test": {
+      "metrics": {
+        "micro_f1": 0.6023166023166023,
+        "macro_f1": 0.4709738485654963,
+        "micro_jaccard": 0.430939226519337,
+        "macro_jaccard": 0.3411056728709093,
+        "subset_accuracy": 0.08045977011494253
+      },
+      "topk@3": {
+        "mean_jaccard_at_k": 0.4597701149425289,
+        "mean_precision_at_k": 0.5900383141762452,
+        "mean_recall_at_k": 0.5900383141762452,
+        "k": 3
+      }
+    },
+    "calibrated_test": {
+      "metrics": {
+        "micro_f1": 0.5743944636678201,
+        "macro_f1": 0.4816016629652873,
+        "micro_jaccard": 0.4029126213592233,
+        "macro_jaccard": 0.3455539490627574,
+        "subset_accuracy": 0.022988505747126436
+      },
+      "thresholds": [
+        0.35000000000000003,
+        0.55,
+        0.2,
+        0.6000000000000001,
+        0.25,
+        0.2,
+        0.25,
+        0.4
+      ]
+    }
+  },
+  "linear_svm_ovr": {
+    "val": {
+      "metrics": {
+        "micro_f1": 0.544776119402985,
+        "macro_f1": 0.46341958830989105,
+        "micro_jaccard": 0.37435897435897436,
+        "macro_jaccard": 0.32352430555555556,
+        "subset_accuracy": 0.045454545454545456
+      },
+      "topk@3": {
+        "mean_jaccard_at_k": 0.4295454545454545,
+        "mean_precision_at_k": 0.5681818181818181,
+        "mean_recall_at_k": 0.5681818181818181,
+        "k": 3
+      }
+    },
+    "test": {
+      "metrics": {
+        "micro_f1": 0.5719769673704413,
+        "macro_f1": 0.46050668524531385,
+        "micro_jaccard": 0.40053763440860213,
+        "macro_jaccard": 0.3315107946566263,
+        "subset_accuracy": 0.08045977011494253
+      },
+      "topk@3": {
+        "mean_jaccard_at_k": 0.42298850574712654,
+        "mean_precision_at_k": 0.5517241379310346,
+        "mean_recall_at_k": 0.5517241379310346,
+        "k": 3
+      }
+    },
+    "calibrated_test": {
+      "metrics": {
+        "micro_f1": 0.5714285714285715,
+        "macro_f1": 0.49858447534445594,
+        "micro_jaccard": 0.4,
+        "macro_jaccard": 0.3528890707134662,
+        "subset_accuracy": 0.04597701149425287
+      },
+      "thresholds": [
+        0.6000000000000001,
+        0.30000000000000004,
+        0.2,
+        0.45000000000000007,
+        0.30000000000000004,
+        0.2,
+        0.35000000000000003,
+        0.4
+      ]
+    }
+  },
+  "rf_ovr": {
+    "val": {
+      "metrics": {
+        "micro_f1": 0.5432098765432098,
+        "macro_f1": 0.4070976930617157,
+        "micro_jaccard": 0.3728813559322034,
+        "macro_jaccard": 0.2821862135184503,
+        "subset_accuracy": 0.045454545454545456
+      },
+      "topk@3": {
+        "mean_jaccard_at_k": 0.42045454545454536,
+        "mean_precision_at_k": 0.5606060606060607,
+        "mean_recall_at_k": 0.5606060606060607,
+        "k": 3
+      }
+    },
+    "test": {
+      "metrics": {
+        "micro_f1": 0.6004056795131846,
+        "macro_f1": 0.4363787596815397,
+        "micro_jaccard": 0.4289855072463768,
+        "macro_jaccard": 0.3189877074616606,
+        "subset_accuracy": 0.09195402298850575
+      },
+      "topk@3": {
+        "mean_jaccard_at_k": 0.4517241379310346,
+        "mean_precision_at_k": 0.578544061302682,
+        "mean_recall_at_k": 0.578544061302682,
+        "k": 3
+      }
+    },
+    "calibrated_test": {
+      "metrics": {
+        "micro_f1": 0.6026986506746627,
+        "macro_f1": 0.4924460077309503,
+        "micro_jaccard": 0.4313304721030043,
+        "macro_jaccard": 0.359907962993406,
+        "subset_accuracy": 0.034482758620689655
+      },
+      "thresholds": [
+        0.35000000000000003,
+        0.2,
+        0.30000000000000004,
+        0.35000000000000003,
+        0.2,
+        0.25,
+        0.2,
+        0.30000000000000004
+      ]
+    }
+  },
+  "mlp_ovr": {
+    "val": {
+      "metrics": {
+        "micro_f1": 0.5565217391304348,
+        "macro_f1": 0.4065148559423769,
+        "micro_jaccard": 0.3855421686746988,
+        "macro_jaccard": 0.28905092377578145,
+        "subset_accuracy": 0.022727272727272728
+      },
+      "topk@3": {
+        "mean_jaccard_at_k": 0.4636363636363636,
+        "mean_precision_at_k": 0.5984848484848485,
+        "mean_recall_at_k": 0.5984848484848485,
+        "k": 3
+      }
+    },
+    "test": {
+      "metrics": {
+        "micro_f1": 0.5786163522012578,
+        "macro_f1": 0.40810775333208266,
+        "micro_jaccard": 0.40707964601769914,
+        "macro_jaccard": 0.2986659882716079,
+        "subset_accuracy": 0.06896551724137931
+      },
+      "topk@3": {
+        "mean_jaccard_at_k": 0.4367816091954024,
+        "mean_precision_at_k": 0.5747126436781609,
+        "mean_recall_at_k": 0.5747126436781609,
+        "k": 3
+      }
+    },
+    "calibrated_test": {
+      "metrics": {
+        "micro_f1": 0.588850174216028,
+        "macro_f1": 0.4750030331357961,
+        "micro_jaccard": 0.41728395061728396,
+        "macro_jaccard": 0.3444540522763849,
+        "subset_accuracy": 0.05747126436781609
+      },
+      "thresholds": [
+        0.2,
+        0.4,
+        0.2,
+        0.4,
+        0.4,
+        0.2,
+        0.4,
+        0.25
+      ]
+    }
+  },
+  "knn_ovr": {
+    "val": {
+      "metrics": {
+        "micro_f1": 0.551440329218107,
+        "macro_f1": 0.39590836630428655,
+        "micro_jaccard": 0.3806818181818182,
+        "macro_jaccard": 0.28000634812405856,
+        "subset_accuracy": 0.06818181818181818
+      },
+      "topk@3": {
+        "mean_jaccard_at_k": 0.41818181818181815,
+        "mean_precision_at_k": 0.5606060606060606,
+        "mean_recall_at_k": 0.5606060606060606,
+        "k": 3
+      }
+    },
+    "test": {
+      "metrics": {
+        "micro_f1": 0.6024590163934426,
+        "macro_f1": 0.40728743943678336,
+        "micro_jaccard": 0.4310850439882698,
+        "macro_jaccard": 0.30156219168569376,
+        "subset_accuracy": 0.05747126436781609
+      },
+      "topk@3": {
+        "mean_jaccard_at_k": 0.4839080459770116,
+        "mean_precision_at_k": 0.6130268199233715,
+        "mean_recall_at_k": 0.6130268199233715,
+        "k": 3
+      }
+    },
+    "calibrated_test": {
+      "metrics": {
+        "micro_f1": 0.6172106824925816,
+        "macro_f1": 0.5070326759790293,
+        "micro_jaccard": 0.44635193133047213,
+        "macro_jaccard": 0.37209575978916204,
+        "subset_accuracy": 0.011494252873563218
+      },
+      "thresholds": [
+        0.25,
+        0.25,
+        0.2,
+        0.45000000000000007,
+        0.25,
+        0.2,
+        0.25,
+        0.25
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "n_human_songs": 432,
+  "ties_any_count": 143,
+  "ties_any_rate": 0.33101851851851855,
+  "ties_broken_with_clap_count": 82,
+  "ties_broken_with_clap_rate": 0.18981481481481483,
+  "mean_final_vs_clap_jaccard": 0.34953703703703703,
+  "median_final_vs_clap_jaccard": 0.2,
+  "mean_agreement_over_songs": 0.8155864197530863,
+  "clap_allowed_rate": 0.9143518518518519,
+  "clap_agree_threshold": 0.0
+}
