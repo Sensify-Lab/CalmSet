@@ -1,0 +1,17 @@
+Title		Ants Go Marching
+Elapse		157
+A_Melody1	100
+B_Melody2	100
+C_Melody3	100
+E_Harmony1	100
+F_Harmony2	100
+H_AddVoice1	100
+I_AddVoice2	100
+J_AddVoice3	100
+L_Bass1		100
+M_Bass2		100
+O_Drum1		100
+P_Drum2		100
+Q_Ambient1	100
+R_Ambient2	100
+S_Ambient3	100
