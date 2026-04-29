@@ -181,7 +181,23 @@ Please see the `LICENSE` file for details.
 
 ## **Citation**
 
-If you use this code or the CalmSet dataset in your research, please cite the accompanying paper: TBD
+If you use this code or the CalmSet dataset in your research, please cite the accompanying paper: 
+
+ACM Reference Format:
+Abhishek Karwankar, Liam Stapley, Daniel Stevens, and Matthew Louis Mauriello. 2026. CalmSet: A Domain-Specific Test Collection for Affective Music Retrieval for Children with ASD. In Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ’26), July 20–24, 2026, Melbourne, VIC, Australia. ACM, New York, NY, USA. https://doi.org/10.1145/3805712.3808586
+
+BibTeX:
+@inproceedings{karwankar2026calmset,
+  author    = {Karwankar, Abhishek and Stapley, Liam and Stevens, Daniel and Mauriello, Matthew Louis},
+  title     = {CalmSet: A Domain-Specific Test Collection for Affective Music Retrieval for Children with ASD},
+  booktitle = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '26)},
+  year      = {2026},
+  address   = {New York, NY, USA},
+  publisher = {ACM},
+  location  = {Melbourne, VIC, Australia},
+  doi       = {10.1145/3805712.3808586},
+  url       = {https://doi.org/10.1145/3805712.3808586}
+}
 
 
 
